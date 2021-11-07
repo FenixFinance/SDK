@@ -1,6 +1,4 @@
 # Fenix Finance SDK
-
-[![Actions Status](https://github.com/fenixfinance/old-sdk/actions/workflows/publish.yml/badge.svg)](https://github.com/fenixfinance/old-sdk)
 [![npm version](https://img.shields.io/npm/v/@fenix.finance/sdk/latest.svg)](https://www.npmjs.com/package/@fenix.finance/sdk/v/latest)
 
 ## Running tests
@@ -10,7 +8,7 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/fenixfinance/old-sdk.git
+git clone https://github.com/fenixfinance/sdk.git
 ```
 
 Move into the old-sdk working directory
