@@ -1,7 +1,7 @@
 {
   "name": "@fenix.finance/sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.15",
   "description": "An SDK for building applications on top of Fenix Finance.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -10,8 +10,13 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/fenixfinance/sdk.git",
-  "keywords": ["fenix.finance"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenixfinance/sdk.git"
+  },
+  "keywords": [
+    "fenix.finance"
+  ],
   "scripts": {
     "lint": "tsdx lint src test",
     "lint:fix": "tsdx lint src test --fix",
@@ -58,5 +63,10 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fenixfinance/sdk/issues"
+  },
+  "homepage": "https://github.com/fenixfinance/sdk#readme",
+  "author": "fenix.finance"
 }
