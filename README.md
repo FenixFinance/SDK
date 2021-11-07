@@ -1,6 +1,4 @@
 # Fenix Finance SDK
-
-[![Actions Status](https://github.com/fenixfinance/old-sdk/actions/workflows/publish.yml/badge.svg)](https://github.com/fenixfinance/old-sdk)
 [![npm version](https://img.shields.io/npm/v/@fenix.finance/sdk/latest.svg)](https://www.npmjs.com/package/@fenix.finance/sdk/v/latest)
 
 ## Running tests
