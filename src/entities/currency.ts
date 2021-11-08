@@ -36,6 +36,8 @@ export class Currency {
 export const BASE_CURRENCIES: any = {
   [ChainId.MAINNET]: new Currency(18, 'BNB', 'Binance'),
   [ChainId.BSCTESTNET]: new Currency(18, 'BNB', 'Binance'),
+  [ChainId.MAINNET]: new Currency(18, 'HT', 'Huobi'),
+  [ChainId.BSCTESTNET]: new Currency(18, 'HT', 'Huobi'),
   [ChainId.MATICMAINNET]: new Currency(18, 'MATIC', 'MATIC'),
   [ChainId.MATICTESTNET]: new Currency(18, 'MATIC', 'MATIC'),
 }
