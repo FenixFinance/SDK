@@ -75,14 +75,14 @@ export const WETH = {
     ChainId.HECOMAINNET,
     '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f',
     18,
-    'HT',
+    'WHT',
     'Wrapped HT'
   ),
   [ChainId.HECOTESTNET]: new Token(
     ChainId.HECOTESTNET,
     '0x7aF326B6351C8A9b8fb8CD205CBe11d4Ac5FA836',
     18,
-    'HT',
+    'WHT',
     'Wrapped HT'
   ),
   [ChainId.MATICMAINNET]: new Token(
@@ -98,5 +98,19 @@ export const WETH = {
     18,
     'MATIC',
     'Wrapped MATIC'
+  ),
+  [ChainId.ETHEREUMMAINNET]: new Token(
+      ChainId.ETHEREUMMAINNET,
+      '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+      18,
+      'WETH',
+      'Wrapped ETH'
+  ),
+  [ChainId.ETHEREUMTESTNET]: new Token(
+      ChainId.ETHEREUMTESTNET,
+      '0xdf032bc4b9dc2782bb09352007d4c57b75160b15',
+      18,
+      'WETH',
+      'Wrapped ETH'
   )
 }
